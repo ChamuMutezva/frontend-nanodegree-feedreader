@@ -1,7 +1,7 @@
 # Project Overview
 
 This project is a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and left an incomplete application test suite. I
-took over the testing to see that the projecthas been completed
+took over the testing to see that the project has been completed
 
 ## Why this Project?
 
@@ -25,4 +25,31 @@ Testing is an important part of the development process and many organizations p
 
 8. The `Initial test` is an async test, for this test the `beforeEach` is used. The `expect` statement inside the `completes work` where the expectation is that the children of the feed container has a length property that is greater than 0 to be true. To force a failure remove the keyword `done` from the `beforeEach` function.
 
-9. The last test suite is the `New Feed Selection` where the test is to ensure that content changes when the `loadFeed()` function is loaded. In this test 2 feeds has to be loaded to check that the content changes. The `done` keyword is also removed to force a failure
+9. The last test suite is the `New Feed Selection` where the test is to ensure that content changes when the `loadFeed()` function is loaded. In this test 2 feeds has to be loaded to check that the content changes.The `done` keyword is also removed to force a failure.
+
+## About the author
+
+Chamunorwa Mutezva also known as Chamu Mutezva is a student at Udacity for the Front-End Web Developer Nanodegree program.
+
+## Installation
+
+Download the zip folder from [Github](https://chamumutezva.github.io/Memory-Game/) or click on the following link
+FeedReader(https://chamumutezva.github.io/frontend-nanodegree-feedreader-master/)
+
+## Dependencies
+
+1. [Google Apis]("http://fonts.googleapis.com/css?family=Roboto:400,100,300,700">)
+2. [Jasmine Libraries] a. (jasmine/lib/jasmine-2.1.2/jasmine.css) b. (jasmine/lib/jasmine-2.1.2/jasmine.js)
+ c. (jasmine/lib/jasmine-2.1.2/jasmine-html.js) d. (jasmine/lib/jasmine-2.1.2/boot.js)
+
+
+## Contributions
+
+The main `code` was provided by Udacity as a course work.
+Please you are free to email on (ckmutezva@gmail.com)
+
+I was inspired by Udacity to do the project as part of my course work.
+Follow the link to play the game.
+[Feed Reader Testing]()
+
+Link to download the app (https://github.com/ChamuMutezva/frontend-nanodegree-feedreader-master.git)
