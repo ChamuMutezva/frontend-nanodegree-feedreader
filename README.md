@@ -33,8 +33,7 @@ Chamunorwa Mutezva also known as Chamu Mutezva is a student at Udacity for the F
 
 ## Installation
 
-Download the zip folder from [Github](https://chamumutezva.github.io/Memory-Game/) or click on the following link
-FeedReader(https://chamumutezva.github.io/frontend-nanodegree-feedreader-master/)
+Download the zip folder from [Github](https://github.com/ChamuMutezva/frontend-nanodegree-feedreader-master.git)
 
 ## Dependencies
 
@@ -48,8 +47,5 @@ FeedReader(https://chamumutezva.github.io/frontend-nanodegree-feedreader-master/
 The main `code` was provided by Udacity as a course work.
 Please you are free to email on (ckmutezva@gmail.com)
 
-I was inspired by Udacity to do the project as part of my course work.
-Follow the link to play the game.
-[Feed Reader Testing]()
+I was inspired by Udacity to do the project as part of my course work and was guided by the Udacity mentors on areas that i needed explanation.
 
-Link to download the app (https://github.com/ChamuMutezva/frontend-nanodegree-feedreader-master.git)
