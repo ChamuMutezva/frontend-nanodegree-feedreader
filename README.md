@@ -4,9 +4,9 @@ This project is a web-based application that reads RSS feeds. I used [Jasmine](h
 
 ## How to use the application
 
-A. Review the application in your browser and the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works and do the same with the Jasmine spec file in **./jasmine/spec/feedreader.js**
+1. Review the application in your browser and the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works and do the same with the Jasmine spec file in **./jasmine/spec/feedreader.js**
 
-Several edits can be made one at a time to force a failure
+2. Several edits can be made one at a time to force a failure
 
         1.  Edit the `allFeeds` variable in **./js/app.js** to make the provided test fail and see how Jasmine visualizes this failure in the application. Return the `allFeeds` variable to a passing state.
 
