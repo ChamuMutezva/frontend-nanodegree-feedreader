@@ -4,7 +4,7 @@ This project is a web-based application that reads RSS feeds. I used [Jasmine](h
 
 ## How to use the application
 
-1. Review the application in your browser and the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works and do the same with the Jasmine spec file in **./jasmine/spec/feedreader.js**
+A. Review the application in your browser and the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works and do the same with the Jasmine spec file in **./jasmine/spec/feedreader.js**
 
 Several edits can be made one at a time to force a failure
 
