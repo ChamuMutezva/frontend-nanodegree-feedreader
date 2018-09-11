@@ -38,8 +38,11 @@ Download the zip folder from [Github](https://github.com/ChamuMutezva/frontend-n
 ## Dependencies
 
 1. [Google Apis]("http://fonts.googleapis.com/css?family=Roboto:400,100,300,700">)
-2. [Jasmine Libraries] a. (jasmine/lib/jasmine-2.1.2/jasmine.css) b. (jasmine/lib/jasmine-2.1.2/jasmine.js)
- c. (jasmine/lib/jasmine-2.1.2/jasmine-html.js) d. (jasmine/lib/jasmine-2.1.2/boot.js)
+2. [Jasmine Libraries] 
+    1. (jasmine/lib/jasmine-2.1.2/jasmine.css) 
+    2. (jasmine/lib/jasmine-2.1.2/jasmine.js)
+    3. (jasmine/lib/jasmine-2.1.2/jasmine-html.js) 
+    4. (jasmine/lib/jasmine-2.1.2/boot.js)
 
 
 ## Contributions
