@@ -30,6 +30,7 @@ $(function () {
         it('URL is defined', function () {
             for (let feed of allFeeds) {
                 expect(feed.url).toBeTruthy();
+                expect(feed.url.length).not.toBe(0);
             }
         })
 
@@ -87,8 +88,8 @@ $(function () {
         });
         it('completes work', function () {
            
-            const feed = document.querySelector('.feed');
-            expect(feed.children.length > 0).toBe(true);
+            const feed = $('.feed .entry');
+            expect(feed.length > 0).toBe(true);
             
         })
     })
