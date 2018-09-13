@@ -26,8 +26,10 @@ Chamunorwa Mutezva also known as Chamu Mutezva is a student at Udacity for the F
 
 ## Installation
 
-Download the zip folder from [Github](https://github.com/ChamuMutezva/frontend-nanodegree-feedreader-master.git) and open the index.html 
-with your favourite browser.
+Download the zip folder from [Github](https://github.com/ChamuMutezva/frontend-nanodegree-feedreader-master.git)
+     Unzip your folder and open it
+     Look for the index.html file
+     Right click it and select `View in browser`
 
 ## Dependencies
 
