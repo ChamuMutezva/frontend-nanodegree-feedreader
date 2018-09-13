@@ -24,7 +24,7 @@ $(function () {
         });
 
 
-        /* TODO: This test loops through each feed in the allFeeds object
+        /* This test loops through each feed in the allFeeds object
          * and ensures it has a URL defined and that the URL is not empty.
          */
         it('URL is defined', function () {
@@ -34,7 +34,7 @@ $(function () {
         })
 
 
-        /* TODO: This test loops through each feed
+        /* This test loops through each feed
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
@@ -47,16 +47,16 @@ $(function () {
     });
 
 
-    /* TODO:"The menu"  test suite*/
+    /* "The menu"  test suite*/
     describe('The menu', function () {
-        /* TODO: This test ensures that the menu element is
+        /* This test ensures that the menu element is
          * hidden by default.          
          */
         const body = document.querySelector('body');
         it('Menu is hidden', function () {
             expect(body.classList.contains('menu-hidden')).toBe(true);
         });
-        /* TODO: This test ensures that the menu changes
+        /* This test ensures that the menu changes
          * visibility when the menu icon is clicked. This test
          * has two expectations: the menu display changes when
          * clicked and hide when clicked again.
@@ -74,9 +74,9 @@ $(function () {
 
     })
 
-    /* TODO: The "Initial Entries" test suite */
+    /* The "Initial Entries" test suite */
     describe('Initial Entries', function () {
-        /* TODO: A test that ensures that the loadFeed
+        /* A test that ensures that the loadFeed
          * function is called and completes its work, there is at least
          * a single .entry element within the .feed container.
          * The loadFeed() is asynchronous so this test will require
@@ -86,14 +86,14 @@ $(function () {
             loadFeed(0, done);
         });
         it('completes work', function () {
-            const entry = document.querySelector('.entry');
+           
             const feed = document.querySelector('.feed');
-
-            expect(entry.children.length > 0).toBe(true);
+            expect(feed.children.length > 0).toBe(true);
+            
         })
     })
 
-    /* TODO: The "New Feed Selection" test suite*/
+    /* The "New Feed Selection" test suite*/
     describe('New Feed Selection', function () {
 
         let firstFeed;
@@ -106,7 +106,7 @@ $(function () {
             });
 
         });
-        /* TODO: This test suite ensures that when a new feed is loaded
+        /* This test suite ensures that when a new feed is loaded
          * by the loadFeed function , the content actually changes.
          * loadFeed() is asynchronous.
          */
